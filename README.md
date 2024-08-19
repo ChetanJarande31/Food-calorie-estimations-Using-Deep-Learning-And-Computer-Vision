@@ -61,4 +61,6 @@ ___
 * ### **Vishakha Patil**
 * ### **Diya Ukirde**
 ---
- 
+### For any suggestions please reach out to [Chetan Jarande](https://www.linkedin.com/in/chetan-jarande-032511198/)
+* Or contact me from [My Website](https://chetanjarande-nextjs-portfolio-website.vercel.app/)
+---
