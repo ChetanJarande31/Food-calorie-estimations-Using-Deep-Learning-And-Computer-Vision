@@ -1,66 +1,75 @@
-# Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision
-**Food calorie estimations Using Deep Learning And  Computer Vision**
+# Food Calorie Estimations Using Deep Learning And Computer Vision
 
-___
-## **Dataset Information for Training and Testing**
-* You can use your own data, for making use of following file one can upload the dataset to google drive and
-then mount drive into your .ipynb file.
+[![GitHub stars](https://img.shields.io/github/stars/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision)](https://github.com/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision)](https://github.com/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision/network/members)
 
-    [Darknet YoloV4 AlexeyAB.ipynb](https://github.com/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision/blob/main/Extra_components/Training_Custom_YOLOV4/Darknet%20YoloV4%20AlexeyAB.ipynb)
+## Table of Contents
+- [Food Calorie Estimations Using Deep Learning And Computer Vision](#food-calorie-estimations-using-deep-learning-and-computer-vision)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Dataset Information](#dataset-information)
+  - [Code and Usage](#code-and-usage)
+  - [Project Report and Papers](#project-report-and-papers)
+  - [Extra Components](#extra-components)
+  - [Attribution \& Academic Use](#attribution--academic-use)
+  - [Contributors](#contributors)
+  - [License](#license)
+  - [Contact](#contact)
 
+## Overview
+This repository contains a project that estimates food calories using deep learning and computer vision techniques. It implements object detection models using both YOLOv4 and YOLOv5, offering practical insights into building and training these models.
 
-* for the files like which uses [Roboflow](https://app.roboflow.com/)
-Create your account on roboflow and upload your dataset under 
-> Workspace -> Project -> Your_Dataset
-- change varibales for workspace and project and your private key for your dataset
-- For YOLO V4 model use following file
-[Train_Custom_YOLOv4_Darknet_Roboflow.ipynb](https://github.com/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision/blob/main/Extra_components/Training_Custom_YOLOV4/Train_Custom_YOLOv4_Darknet_Roboflow.ipynb)
+## Dataset Information
+- **Custom Datasets:**
+  You can use your own dataset by uploading it to Google Drive and mounting the drive in your notebook.
+- **Roboflow Integration:**
+  Create an account on [Roboflow](https://app.roboflow.com) and upload your dataset under **Workspace -> Project -> Your_Dataset**. Adjust the necessary variables (workspace, project, private key) in the notebooks.
+- **Notebooks for Training:**
+  - **YOLOv4:** Use [`Train_Custom_YOLOv4_Darknet_Roboflow.ipynb`](./Train_Custom_YOLOv4_Darknet_Roboflow.ipynb)
+  - **YOLOv5:** Use [`CJ_Roboflow_Train_Custom_YOLOv5.ipynb`](./CJ_Roboflow_Train_Custom_YOLOv5.ipynb)
+- **Dataset Access:**
+  View & download dataset from: [My Roboflow Dataset](https://app.roboflow.com)
 
-- For YOLO V5 model use following file
+## Code and Usage
+- Main implementation notebook: [`Food calorie estimations Using Deep Learning And Computer Vision.ipynb`](./Food%20calorie%20estimations%20Using%20Deep%20Learning%20And%20Computer%20Vision.ipynb)
 
-    [CJ_Roboflow_Train_Custom_YOLOv5.ipynb](https://github.com/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision/blob/main/Extra_components/Training_Custom_YOLOV5/CJ_Roboflow_Train_Custom_YOLOv5.ipynb)
+## Project Report and Papers
+- **Project Report:** [Project Report of Food calorie estimations Using Deep Learning And Computer Vision.pdf](./Project%20Report%20of%20Food%20calorie%20estimations%20Using%20Deep%20Learning%20And%20Computer%20Vision.pdf)
+- **Presentation:** [food calorie estimation BE proj ppt.pptx](./food%20calorie%20estimation%20BE%20proj%20ppt.pptx)
+- **Research Papers:**
+  1. [SURVEY ON FOOD CALORIE ESTIMATION USING DEEP LEARNING AND COMPUTER VISION](http://www.jetir.org)
+  2. [Food Calorie Estimation Using Deep Learning and Computer Vision](http://www.jetir.org)
 
-## **View & Download Dataset from here**
-> [My Roboflow Dataset link](https://app.roboflow.com/chetan-projects-object-detcions/fruits--and-thumb-detection) 
-___
-##  **Project Report and Papers and PPT**
-* **reports** 
-    - [Project Report of Food calorie estimations Using Deep Learning And Computer Vision.pdf](https://github.com/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision/blob/main/Project%20Report%20of%20Food%20calorie%20estimations%20Using%20Deep%20Learning%20And%20Computer%20Vision.pdf)
-* **PPT**: 
-    - [food calorie estimation BE proj ppt.pptx](https://github.com/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision/blob/main/food%20calorie%20estimation%20BE%20proj%20ppt.pptx) 
-* Papers: 
-    >    1. [SURVEY ON FOOD CALORIE ESTIMATION USING DEEP LEARNING AND COMPUTER VISION
-](https://www.jetir.org/view?paper=JETIR2201196)
-    >    2. [Food Calorie Estimation Using Deep Learning and Computer Vision
-](https://www.jetir.org/view?paper=JETIR2205411) 
-## **Code implementation and Usage**
-* [Food calorie estimations Using Deep Learning And Computer Vision.ipynb](https://github.com/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision/blob/main/Food%20calorie%20estimations%20Using%20Deep%20Learning%20And%20Computer%20Vision.ipynb)
+## Extra Components
+This folder contains additional resources including configuration files and extra notebooks:
+- **Custom YOLOv4 (Darknet):**
+  - Weights and config files for training a custom YOLOv4 model.
+  - [Download YOLOv4 Weights](https://drive.google.com/drive/folders/13kAvdJRTdD1-EBWndrdziyN0sXqczoZU?usp=sharing)
+- **Custom YOLOv5:**
+  - YOLOv5s V1 model suitable for Android applications.
+  - [Download YOLOv5 Weights](https://drive.google.com/drive/folders/12IOvg1eU-9oRnF83e-vHamzejxHdRUGa)
+  - [YOLOv5 Folder](https://drive.google.com/drive/folders/1ntILxD9NemhOSQvrB7hI2VFTNlqD0pcb?usp=sharing)
+- **Additional Links:**
+  See the [`links.txt`](./links.txt) file for more details.
 
-___
-## **Extra components**:
-### this folder contains the net files for the custom YOLOv4 and YOLOv5 and .ipynb files for how to train them.
-* links can be found in [links.txt](https://github.com/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision/blob/main/Extra_components/links.txt) file
+## Attribution & Academic Use
+If you are using this project for academic purposes—such as incorporating it into a final year project—it is **mandatory** that you provide clear and proper attribution. You must:
+- Acknowledge that the project is originally developed by **Chetan Jarande, Mukta Bhagwat, Vishakha Patil, and Diya Ukirde**.
+- Include a statement that the work is based on the open-source project available on [GitHub](https://github.com/ChetanJarande31/Food-calorie-estimations-Using-Deep-Learning-And-Computer-Vision) and that you are using it with modifications (if any).
+- **Not claim the project as entirely your own original work.**
+Failure to adhere to these conditions violates both the project’s license and academic integrity standards.
 
-* ### Custom YOLOV4 Darknet
+## Contributors
+**Made  With 💖 by**
+- **Chetan Jarande**
+- **Mukta Bhagwat**
+- **Vishakha Patil**
+- **Diya Ukirde**
 
-- ".weights" files for training **custom darknet YOLO V4 model**
-- link: https://drive.google.com/drive/folders/13kAvdJRTdD1-EBWndrdziyN0sXqczoZU?usp=sharing
+## License
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](./LICENSE).
 
-
-* ### Custom YOLOv5 
-
-- *YOLO v5s V1* (a small-scale model which can be used for **Android-based applications**)
-- ".pt" files can be found at : https://drive.google.com/drive/folders/12IOvg1eU-9oRnF83e-vHamzejxHdRUGa
-- folder link:  https://drive.google.com/drive/folders/1ntILxD9NemhOSQvrB7hI2VFTNlqD0pcb?usp=sharing
-
-
-***
-## **Made  With 💖 by** 
-* ### **Chetan Jarande**
-* ### **Mukta  Bhagwat**
-* ### **Vishakha Patil**
-* ### **Diya Ukirde**
----
-### For any suggestions please reach out to [Chetan Jarande](https://www.linkedin.com/in/chetan-jarande-032511198/)
-* Or contact me from [My Website](https://chetanjarande-nextjs-portfolio-website.vercel.app/)
----
+## Contact
+For suggestions or inquiries, please reach out:
+- [Chetan Jarande](https://www.linkedin.com)
+- [Visit my website](https://chetanjarande-nextjs-portfolio-website.vercel.app)
