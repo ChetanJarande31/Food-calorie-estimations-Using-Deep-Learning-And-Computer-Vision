@@ -25,32 +25,34 @@ This repository contains a project that estimates food calories using deep learn
 - **Roboflow Integration:**
   Create an account on [Roboflow](https://app.roboflow.com) and upload your dataset under **Workspace -> Project -> Your_Dataset**. Adjust the necessary variables (workspace, project, private key) in the notebooks.
 - **Notebooks for Training:**
-  - **YOLOv4:** Use [`Train_Custom_YOLOv4_Darknet_Roboflow.ipynb`](./Train_Custom_YOLOv4_Darknet_Roboflow.ipynb)
-  - **YOLOv5:** Use [`CJ_Roboflow_Train_Custom_YOLOv5.ipynb`](./CJ_Roboflow_Train_Custom_YOLOv5.ipynb)
+  - **YOLOv4:** Use [`Train_Custom_YOLOv4_Darknet_Roboflow.ipynb`](Extra_components/Training_Custom_YOLOV4/Train_Custom_YOLOv4_Darknet_Roboflow.ipynb)
+  - **YOLOv5:** Use [`CJ_Roboflow_Train_Custom_YOLOv5.ipynb`](Extra_components/Training_Custom_YOLOV5/CJ_Roboflow_Train_Custom_YOLOv5.ipynb)
 - **Dataset Access:**
-  View & download dataset from: [My Roboflow Dataset](https://app.roboflow.com)
+  View & download dataset from: [My Roboflow Dataset](https://app.roboflow.com/chetan-projects-object-detcions/fruits--and-thumb-detection)
 
 ## Code and Usage
-- Main implementation notebook: [`Food calorie estimations Using Deep Learning And Computer Vision.ipynb`](./Food%20calorie%20estimations%20Using%20Deep%20Learning%20And%20Computer%20Vision.ipynb)
+- Main implementation notebook: [`Food calorie estimations Using Deep Learning And Computer Vision.ipynb`](Food_calorie_estimations_Using_Deep_Learning_And_Computer_Vision.ipynb)
 
 ## Project Report and Papers
-- **Project Report:** [Project Report of Food calorie estimations Using Deep Learning And Computer Vision.pdf](./Project%20Report%20of%20Food%20calorie%20estimations%20Using%20Deep%20Learning%20And%20Computer%20Vision.pdf)
-- **Presentation:** [food calorie estimation BE proj ppt.pptx](./food%20calorie%20estimation%20BE%20proj%20ppt.pptx)
+- **Project Report:** [Project Report of Food calorie estimations Using Deep Learning And Computer Vision.pdf](Project_Report_of_Food_calorie_estimations_Using_Deep_Learning_And_Computer_Vision.pdf)
+- **Presentation:** [Food Calorie Estimation BE Project PPT](Food_Calorie_Estimation_BE_Project_PPT.pptx)
 - **Research Papers:**
-  1. [SURVEY ON FOOD CALORIE ESTIMATION USING DEEP LEARNING AND COMPUTER VISION](http://www.jetir.org)
-  2. [Food Calorie Estimation Using Deep Learning and Computer Vision](http://www.jetir.org)
+  1. [SURVEY ON FOOD CALORIE ESTIMATION USING DEEP LEARNING AND COMPUTER VISION](https://www.jetir.org/view?paper=JETIR2201196)
+  2. [Food Calorie Estimation Using Deep Learning and Computer Vision](https://www.jetir.org/view?paper=JETIR2205411)
 
 ## Extra Components
 This folder contains additional resources including configuration files and extra notebooks:
 - **Custom YOLOv4 (Darknet):**
+  - [Path To Code file](Extra_components/Training_Custom_YOLOV4)
   - Weights and config files for training a custom YOLOv4 model.
   - [Download YOLOv4 Weights](https://drive.google.com/drive/folders/13kAvdJRTdD1-EBWndrdziyN0sXqczoZU?usp=sharing)
 - **Custom YOLOv5:**
+  - [Path to code files](Extra_components/Training_Custom_YOLOV5)
   - YOLOv5s V1 model suitable for Android applications.
   - [Download YOLOv5 Weights](https://drive.google.com/drive/folders/12IOvg1eU-9oRnF83e-vHamzejxHdRUGa)
   - [YOLOv5 Folder](https://drive.google.com/drive/folders/1ntILxD9NemhOSQvrB7hI2VFTNlqD0pcb?usp=sharing)
 - **Additional Links:**
-  See the [`links.txt`](./links.txt) file for more details.
+  See the [`links.txt`](Extra_components/links.txt) file for more details.
 
 ## Attribution & Academic Use
 If you are using this project for academic purposes—such as incorporating it into a final year project—it is **mandatory** that you provide clear and proper attribution. You must:
@@ -67,7 +69,7 @@ Failure to adhere to these conditions violates both the project’s license and 
 - **Diya Ukirde**
 
 ## License
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](./LICENSE).
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](LICENSE).
 
 ## Contact
 For suggestions or inquiries, please reach out:
